@@ -20,6 +20,8 @@ public class VisualRaceGUI extends JFrame {
         runners = new ArrayList<>();
         runners.add(new MiniRunner("Corredor 1"));
         runners.add(new MiniRunner("Corredor 2"));
+        runners.add(new MiniRunner("Corredor 3"));
+        runners.add(new MiniRunner("Corredor 4"));
 
         trackPanel = new RaceTrackPanel(runners);
         add(trackPanel, BorderLayout.CENTER);
@@ -46,6 +48,7 @@ public class VisualRaceGUI extends JFrame {
         SwingUtilities.invokeLater(VisualRaceGUI::new);
     }
 }
+
 
 
 
