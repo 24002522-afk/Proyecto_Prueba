@@ -12,7 +12,7 @@ public class VisualRaceGUI extends JFrame {
     private JButton startBtn;
 
     public VisualRaceGUI() {
-        setTitle("Carrera de Prubea");
+        setTitle("Carrera Visual");
         setSize(650, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -46,4 +46,5 @@ public class VisualRaceGUI extends JFrame {
         SwingUtilities.invokeLater(VisualRaceGUI::new);
     }
 }
+
 
